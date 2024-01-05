@@ -1,0 +1,50 @@
+
+.form {
+margin: 15px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+}
+
+.label {
+    margin-right: 30px;
+}
+
+.input {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.error{
+    border-color: #f95959;
+}
+
+
+.addBtn {
+    margin-left: 20px;
+    width:200px;
+    padding:15px 30px;
+    border-radius: 10px;
+    background-color: #79c2d0;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+}
+
+.addBtn:hover,
+.deleteBtn:hover {
+    background-color: #5585b5;
+}
+
+.deleteBtn{
+    margin-left:10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #79c2d0;
+}
+
+.contactItem{
+    margin-bottom: 10px;
+}
