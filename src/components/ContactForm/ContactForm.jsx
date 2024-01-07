@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { nanoid } from 'nanoid';
-import css from './ContactList.module.css';
+import css from '../ContactList/ContactList.module.css';
 
 const ContactForm = (props) => {
   const [name, setName] = useState('');
